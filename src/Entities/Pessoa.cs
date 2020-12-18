@@ -25,7 +25,7 @@ namespace src.Entities
         public override string ToString()
         {
             return Nome
-                + ": "
+                + ": R$ "
                 + Imposto().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
