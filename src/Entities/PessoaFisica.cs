@@ -14,10 +14,10 @@ namespace src.Entities
 
         }
 
-        public PessoaFisica(string nome, double rendaAnual, double gasttoSaude)
+        public PessoaFisica(string nome, double rendaAnual, double gastoSaude)
             : base(nome, rendaAnual)
         {
-            GastoSaude = GastoSaude;
+            GastoSaude = gastoSaude;
         }
 
         public override double Imposto()
